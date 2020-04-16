@@ -1,0 +1,42 @@
+﻿@page
+@model Qards.Pages.QardBoardModel
+@{
+    ViewData["Title"] = "QardBoard";
+    Layout = "";
+}
+    <head>
+        <link href="~/css/board.css" rel="stylesheet" type="text/css" />
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    </head>
+    <div class="navbar">
+        <div class="column" ><a asp-area="" asp-page="/Index">Qards</a></div>
+        <div class="column">
+            <a href="#news" title="Declare a series"><i class="material-icons">people</i></a>
+        </div>
+        <div class="column">
+            <a href="#contact" title="Send a card to another participant"><i class="material-icons">send</i></a>
+        </div>
+        <div class="column">
+            <form asp-page-handler="DrawCard" title="Pick a card from the deck" method="post">
+                <button class="btn btn-default" style="color:white; background-color:black"><i class="material-icons" style="color:white; background-color:black" >all_inclusive</i></button>
+                <input type="hidden" name="game_name" value="@Model.game_name" />
+                <input type="hidden" name="player_name" value="@Model.player_name" />
+            </form>
+
+        </div>
+    </div>
+
+<div class="main">
+    <div class="row">
+        @{string family = null;}
+        @foreach (var card in Model.player.Cards)
+        {
+            if (family != null && family != card.Family)
+            {
+                @Html.Raw("</div><div class=\"row\">");
+            }
+            {<div class="column"> <div class="card"><input type="checkbox" id="@card.Family#@card.Name" /><img src="@card.ImageURL" width="100%" /></div></div>}
+            family = card.Family;
+        }
+    </div>
+</div>

@@ -1,0 +1,13 @@
+﻿heart	2	https://upload.wikimedia.org/wikipedia/commons/d/d5/Playing_card_heart_2.svg
+heart	3	https://upload.wikimedia.org/wikipedia/commons/b/b6/Playing_card_heart_3.svg
+heart	4	https://upload.wikimedia.org/wikipedia/commons/a/a2/Playing_card_heart_4.svg
+heart	5	https://upload.wikimedia.org/wikipedia/commons/9/91/Cards-5-Heart.svg
+heart	6	https://upload.wikimedia.org/wikipedia/commons/c/cd/Playing_card_heart_6.svg
+heart	7	https://upload.wikimedia.org/wikipedia/commons/9/94/Playing_card_heart_7.svg
+heart	8	https://upload.wikimedia.org/wikipedia/commons/5/55/Cards-8-Heart.svg
+heart	9	https://upload.wikimedia.org/wikipedia/commons/5/50/Playing_card_heart_9.svg
+club	9	https://upload.wikimedia.org/wikipedia/commons/2/27/Playing_card_club_9.svg
+Kardeshian	Kandel	https://fk4hfa.am.files.1drv.com/y4pZBTC-DXsLjaIYoRe7dlUO4WE-IH75S5pQyh4QTQ7ldpPHmL9qxeU6UwmPsu322jIVbwi3mMSJisekxKHi-d1pgm8HPpyar4DRDmK8vDdKHflpHZNnjcTRHGiSl7Ih13uLJJFUC4YYqqeEaMnd3y-TWoBeyGB7vKEIQC_2ekbK4s38HnIwpD8na15cpRQH10OgUIvzqKaCD4ISekWVcKUZZTEAXYypric15PrAtoCO4o/kandel.JPG?psid=1
+Kardeshian	Kim	https://djiara.am.files.1drv.com/y4pn_UM2FNJXY2E903XW7TUKZARCAHqDedCxpURaPhbpPrIy9G_1e0wJ1ix5tZk6XebM_ACqjDWzzmjfIa8tNdwTagLaWHWzkwtEEqiQIeL0m0RugXga-CLas5ZBidI5TFvAjvlKCSPTOOJ2MFIQN3srV5vVEamMTd5iyiOfpp7ZwWyVAfjcEiweuawAq-usqKHl7jVyzXJz-CeuFsjxY0VZjV5mpP9pYqChA2KEFEjE60/kim.JPG?psid=1
+Kardeshian	Kanye	https://2r1zoq.am.files.1drv.com/y4pCn5aqYcklcx2tT0gKcxQb_YD5gTM9HlgGQMLQdIcbFb6geL0_Q-QeP4-RWBBlWn_xFER8zFm8KRgBAHUbuMe867UekmhaBf1IzqrgeJFWR1veWKa6RERzzR2-50qZ6-oif0VXkgJTqxl_V2DAAF9awkr-TvOOOoetol7ykMljud8nIiicr5S2-actevxakm2HY1uzUVNpy3BQ44TVq5tirJmn_Hj7EQPD5cRBB5fvXg/kanye.JPG?psid=1
+Kardeshian	Klohe	https://am3pap004files.storage.live.com/y4p03Abr5Q6yItGpGKXTs10cBuSeIo816OEQaYSlPLY12kLaySgD-NOqdkEMInvX55Kb0JW7DP0GwCQTacAjvNmZeH94lHl7pv9oqBSe5dPVyc_xE0wVXcZ0QK2ThXh0Kt4-X_MbgUcZDLTiMP5XZ9TVjXevpnTmffUbp8SmqfOit8Gdw4YrHu5wKd9gpOZKRk9/klohe.JPG?psid=1&width=397&height=589

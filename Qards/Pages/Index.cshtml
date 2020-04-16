@@ -1,0 +1,22 @@
+﻿@page
+@model IndexModel
+@{
+    ViewData["Title"] = "Play your own Qards";
+}
+
+<div class="text-center">
+    <h1 class="display-4">ברוכים הבאים</h1>
+    <p> כדי לשחק מלאו את הפרטים הבאים </p>
+    <form method="post" align="right" enctype="multipart/form-data">
+        <label for="game_name">שם המשחק - השם המשותף למשחק שכל השחקנים ישתמשו בו</label>
+        <input type="text" name="game_name" value="שם המשחק" />
+        <label for="player_name">שם השחקן</label>
+        <input type="text" name="player_name" value="שם שחקן" />
+        <br />
+        <label>במידה ואתם מתחילים משחק חדש מלאו יש לספק קובץ קלפים</label>
+        <input type="file" id="deck_name" name="deck_name" value="שם קובץ הקלפים" />
+
+        <br />
+        <input type="submit" value="התחל" align="center" />
+    </form>
+</div>
