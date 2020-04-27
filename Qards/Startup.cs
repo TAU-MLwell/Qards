@@ -8,6 +8,7 @@ using Microsoft.AspNetCore.HttpsPolicy;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
+using Qards.Hubs;
 
 namespace Qards
 {
@@ -25,6 +26,7 @@ namespace Qards
         {
             services.AddRazorPages();
             services.AddMemoryCache(); // adding memory cache to save state
+            services.AddSignalR();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
@@ -51,6 +53,7 @@ namespace Qards
             app.UseEndpoints(endpoints =>
             {
                 endpoints.MapRazorPages();
+                endpoints.MapHub<CardsTrafic>("/cardsTrafic");
             });
         }
     }

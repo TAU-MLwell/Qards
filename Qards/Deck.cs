@@ -17,6 +17,7 @@ namespace Qards
 
         public string Family { get; set; }
         public string Name { get; set; }
+        public string[] FamilyMembers { get; set; }
         public string ImageURL { get; set; }
 
     }
@@ -64,9 +65,24 @@ namespace Qards
             return (c);
         }
 
+        static void PopulateFamilyMembers(List<Card> Cards)
+        {
+            Dictionary<string, List<string>> members = new Dictionary<string, List<string>>();
+            foreach (var c in Cards)
+            {
+                if (!members.ContainsKey(c.Family))
+                    members[c.Family] = new List<string>();
+                members[c.Family].Add(c.Name);
+            }
+            foreach (var c in Cards)
+            {
+                c.FamilyMembers = members[c.Family].Where(n => n != c.Name).ToArray();
+            }
+        }
         public static Deck Load(string[] description)
         {
             var Cards = description.Select(l => new Card(l)).ToList();
+            PopulateFamilyMembers(Cards);
             return new Deck(Cards);
         }
 
